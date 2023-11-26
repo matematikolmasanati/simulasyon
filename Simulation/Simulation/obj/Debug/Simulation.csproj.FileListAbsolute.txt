@@ -1,0 +1,11 @@
+D:\Development\Projects\ETrade\Simulation\Simulation\bin\Debug\Simulation.exe.config
+D:\Development\Projects\ETrade\Simulation\Simulation\bin\Debug\Simulation.exe
+D:\Development\Projects\ETrade\Simulation\Simulation\bin\Debug\Simulation.pdb
+D:\Development\Projects\ETrade\Simulation\Simulation\obj\Debug\Simulation.csproj.AssemblyReference.cache
+D:\Development\Projects\ETrade\Simulation\Simulation\obj\Debug\Simulation.csproj.SuggestedBindingRedirects.cache
+D:\Development\Projects\ETrade\Simulation\Simulation\obj\Debug\Simulation.Form1.resources
+D:\Development\Projects\ETrade\Simulation\Simulation\obj\Debug\Simulation.Properties.Resources.resources
+D:\Development\Projects\ETrade\Simulation\Simulation\obj\Debug\Simulation.csproj.GenerateResource.cache
+D:\Development\Projects\ETrade\Simulation\Simulation\obj\Debug\Simulation.csproj.CoreCompileInputs.cache
+D:\Development\Projects\ETrade\Simulation\Simulation\obj\Debug\Simulation.exe
+D:\Development\Projects\ETrade\Simulation\Simulation\obj\Debug\Simulation.pdb

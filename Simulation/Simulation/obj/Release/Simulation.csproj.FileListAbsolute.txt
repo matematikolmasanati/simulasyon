@@ -1,0 +1,15 @@
+D:\Development\Projects\ETrade\Simulation\Simulation\bin\Release\Simulation.exe.config
+D:\Development\Projects\ETrade\Simulation\Simulation\bin\Release\Simulation.exe.manifest
+D:\Development\Projects\ETrade\Simulation\Simulation\bin\Release\Simulation.application
+D:\Development\Projects\ETrade\Simulation\Simulation\bin\Release\Simulation.exe
+D:\Development\Projects\ETrade\Simulation\Simulation\bin\Release\Simulation.pdb
+D:\Development\Projects\ETrade\Simulation\Simulation\obj\Release\Simulation.csproj.AssemblyReference.cache
+D:\Development\Projects\ETrade\Simulation\Simulation\obj\Release\Simulation.csproj.SuggestedBindingRedirects.cache
+D:\Development\Projects\ETrade\Simulation\Simulation\obj\Release\Simulation.Form1.resources
+D:\Development\Projects\ETrade\Simulation\Simulation\obj\Release\Simulation.Properties.Resources.resources
+D:\Development\Projects\ETrade\Simulation\Simulation\obj\Release\Simulation.csproj.GenerateResource.cache
+D:\Development\Projects\ETrade\Simulation\Simulation\obj\Release\Simulation.csproj.CoreCompileInputs.cache
+D:\Development\Projects\ETrade\Simulation\Simulation\obj\Release\Simulation.exe.manifest
+D:\Development\Projects\ETrade\Simulation\Simulation\obj\Release\Simulation.application
+D:\Development\Projects\ETrade\Simulation\Simulation\obj\Release\Simulation.exe
+D:\Development\Projects\ETrade\Simulation\Simulation\obj\Release\Simulation.pdb
