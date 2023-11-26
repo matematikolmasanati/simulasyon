@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Simulation.exe" version="1.0.0.0" publicKeyToken="43b87938c834e33e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Simulation" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Simulation.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Simulation.exe" size="14232">
+      <assemblyIdentity name="Simulation" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VbhD+zrPd+PSTNsXEWvwyWtMxHeUR6/JdYmhCQS6Y9Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Simulation.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MSI\Semih" issuerKeyHash="29f72559eef475407a74dcd72adb82b450cf78b0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9RS83ysIOdsDs7aWSMS6ImXB8UC3tdb99aYEFV+ZR1k=</DigestValue></Reference></SignedInfo><SignatureValue>RZkvKA1k7/4iBiGXYLnQgR96wNjzu5sN6rXtjNBXAAaA8ljg/osEPNqTzCQBHDjcS9Z6aJPUI8+xTbKkabirUPiD+DJzoGzZct42xGD2xvm5eL5vFprbEwTpNW2tmlnc2T/5Yy2a6xUbfO4RvJdXQ6Ry08nbKuIIqrXZWebRp2E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3GXvTJoIoMxKWXE8Wf5WHYocACf3uzZMrsUKGHBcCL7fbxA6N1JEvCa90QLhZHXPrdqP7G++40lEE8udKjqS0uRCrz450RhEct4fsIAsSiUW/HBJ4WExvCeDJRjUPcmnGvCyUG/XfAWDOWydZByn2LPK2sUtGSAdMV+EumJZ/Nk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5947995f1504a6f5fdd6b5b740f1c16522bac44896b6b303db39082bdfbc14f5" Description="" Url=""><as:assemblyIdentity name="Simulation.exe" version="1.0.0.0" publicKeyToken="43b87938c834e33e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MSI\Semih</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4wLsoJBTC+cpiyZ/j4okZRPOpupcX8n3Nx7StMS2fOM=</DigestValue></Reference></SignedInfo><SignatureValue>2kHC0g3f8/ABl5sJa5YbFdcQ0Vn5wNaGmHCNNZC9vmE5glrg4mODmOBmfUQDWozdya7VuUZtG/bL4MB97N119hCOeIdGeLpna7kkXLr3H4pWGkrVKZno9mYU53hn2VYd5F99nRvsw1VlOkXAckFDybEIa8x1TCcGzUXVq7WaD20=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3GXvTJoIoMxKWXE8Wf5WHYocACf3uzZMrsUKGHBcCL7fbxA6N1JEvCa90QLhZHXPrdqP7G++40lEE8udKjqS0uRCrz450RhEct4fsIAsSiUW/HBJ4WExvCeDJRjUPcmnGvCyUG/XfAWDOWydZByn2LPK2sUtGSAdMV+EumJZ/Nk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQIJFjilCPWLBCbTFQaObz+zANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIATQBTAEkAXABTAGUAbQBpAGgwHhcNMjMxMTI2MjAyMTU4WhcNMjQxMTI2MDIyMTU4WjAdMRswGQYDVQQDHhIATQBTAEkAXABTAGUAbQBpAGgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANxl70yaCKDMSllxPFn+Vh2KHAAn97s2TK7FChhwXAi+328QOjdSRLwmvdEC4WR1z63aj+xvvuNJRBPLnSo6ktLkQq8+OdEYRHLeH7CALEolFvxwSeFhMbwngyUY1D3JpxrwslBv13wFgzlsnWQcp9izytrFLRkgHTFfhLpiWfzZAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAEnNkQrS/Kc+4LUIA1Y1kCOR2NrWVCo7eT7RcKoJFLPr0osqdb3aSWPYlKopLB53iB+h4zcB6wRZ4aDjQNORFub3ldZXduQsSqqU7AkJbdttpOnRtnrIMuIFqLtOQROjjt1+C38jxJd2CkDKUWZrqFv+YTnAD3UOKH4d7zTfMl8o=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
